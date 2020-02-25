@@ -30,7 +30,7 @@ export default function Table() {
 
     return (
         <MaterialTable
-            title="Editable Example"
+            title="Employee Directory"
             columns={state.columns}
             data={state.data}
             editable={{
