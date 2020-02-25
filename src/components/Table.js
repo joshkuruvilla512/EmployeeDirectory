@@ -8,19 +8,23 @@ export default function Table() {
             { title: 'Surname', field: 'surname' },
             { title: 'Birth Year', field: 'birthYear', type: 'numeric' },
             {
-                title: 'Birth Place',
-                field: 'birthCity',
-                lookup: { 34: 'İstanbul', 63: 'Şanlıurfa' },
+                title: 'Role',
+                field: 'role',
+                lookup: { 34: 'Web Developer', 63: 'Engineer', 24: 'Supply Chain' },
             },
         ],
         data: [
-            { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
-            {
-                name: 'Zerya Betül',
-                surname: 'Baran',
-                birthYear: 2017,
-                birthCity: 34,
-            },
+            { name: 'Joshua', surname: 'Kuruvilla', birthYear: 1995, role: 24 },
+            { name: 'Crystal', surname: 'Ly', birthYear: 1991, role: 34 },
+            { name: 'Michael', surname: 'Abraham', birthYear: 1998, role: 63 },
+            { name: 'Matthew', surname: 'Varughese', birthYear: 1997, role: 34 },
+            { name: 'Matt', surname: 'Stanzak', birthYear: 1987, role: 63 },
+            { name: 'Gabe', surname: 'Talon', birthYear: 1994, role: 63 },
+            { name: 'Eric', surname: 'Butler', birthYear: 1989, role: 34 },
+            { name: 'Ryan', surname: 'Gillette', birthYear: 1994, role: 63 },
+            { name: 'Jessie', surname: 'Burch', birthYear: 1995, role: 24 },
+            { name: 'Lacy', surname: 'Kesler', birthYear: 1987, role: 34 },
+
         ],
     });
 
